@@ -6,7 +6,7 @@ import Cars from "./page/Cars";
 import Offers from "./page/Offers";
 import Reservations from "./page/Reservations";
 import Contact from "./page/Contact";
-
+import Footer from "./Component/Footer";
 const App = () => {
   return (
     <div>
@@ -19,6 +19,7 @@ const App = () => {
           <Route path="Reservations" element={<Reservations />} />
           <Route path="Contact" element={<Contact />} />
         </Routes>
+        <Footer/>
       </Router>
     </div>
   );

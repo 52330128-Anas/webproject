@@ -21,7 +21,7 @@ const Home = () => {
       </div>
       <div>
         {cardcars.map((cars) => (
-          <Card
+          <Card key={cars.name}
             image={cars.image}
             name={cars.name}
             price={cars.price}
