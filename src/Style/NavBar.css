@@ -1,0 +1,15 @@
+.nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 50px;
+  background: #1e3a5f;
+}
+
+.Links {
+  display: flex;
+  gap: 20px;
+  a{
+    text-decoration: none;
+  }
+}
