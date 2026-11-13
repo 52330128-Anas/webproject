@@ -6,10 +6,11 @@ import Cars from "./page/Cars";
 import Offers from "./page/Offers";
 import Reservations from "./page/Reservations";
 import Contact from "./page/Contact";
+import "./App.css";
 
 const App = () => {
   return (
-    <div>
+    <div className="App">
       <Router>
         <NavBar />
         <Routes>
