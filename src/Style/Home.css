@@ -1,0 +1,24 @@
+.text{
+    color: black;
+    h1{
+        color: black;
+    }
+}
+.why{
+    display: flex;
+    justify-content: space-between;
+    padding: 50px;
+}
+.why-choose{
+text-align: center;
+width: 200px;
+height: 180px;
+border: black 5px;
+background-color: beige;
+border-radius: 10px;
+
+}
+
+h2,h1{
+    color: black;
+}

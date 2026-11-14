@@ -7,9 +7,11 @@ import Offers from "./page/Offers";
 import Reservations from "./page/Reservations";
 import Contact from "./page/Contact";
 import Footer from "./Component/Footer";
+import "./App.css";
+
 const App = () => {
   return (
-    <div>
+    <div className="App">
       <Router>
         <NavBar />
         <Routes>

@@ -1,12 +1,21 @@
 import React from "react";
 import "../Style/NavBar.css";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+
+import { 
+  faCarRear
+
+ } from '@fortawesome/free-solid-svg-icons';
 
 import { Link } from "react-router-dom";
 const NavBar = () => {
   return (
     <div className="nav">
       <div>
-        <h2>Car Rental </h2>
+        <h2>
+          <FontAwesomeIcon icon={faCarRear} />
+          Car Rental{" "}
+        </h2>
       </div>
       <div className="Links">
         <Link to="/">Home</Link>
