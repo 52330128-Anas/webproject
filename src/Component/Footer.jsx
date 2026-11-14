@@ -9,7 +9,7 @@ const Footer = () => {
 
         <div>
         <h3>CityRide Rentals</h3>
-        <p>Affortdable and reliable car rentals for every journey. book online and drive away today.</p>
+        <p>Affortdable and reliable car rentals for every journey. Reserve online and drive away today.</p>
 </div>
      
       <div>
