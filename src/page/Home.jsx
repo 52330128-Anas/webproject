@@ -38,11 +38,12 @@ const Home = () => {
           under a minute.
         </p>
         <Link to="/Cars">Browse Cars</Link>
-        <div className="popular">Popular Car</div>
       </div>
+      <div className="popular">Popular Car</div>
       <div className="cards">
         {cardcars.map((cars) => (
-          <Card key={cars.name}
+          <Card
+            key={cars.name}
             image={cars.image}
             name={cars.name}
             price={cars.price}
@@ -56,7 +57,6 @@ const Home = () => {
         <p>We make car rental simple and stress-free</p>
       </div>
       <div className="why">
-      
         <div className="why-choose">
           <div>$</div>
           <h2>Fair Prices</h2>

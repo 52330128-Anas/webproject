@@ -5,11 +5,16 @@
   padding: 20px 50px;
   background: #1e3a5f;
 }
+.nav h2 {
+  color: white;
+  margin: 0;
+}
 
 .Links {
   display: flex;
   gap: 20px;
   a{
     text-decoration: none;
+    color: white;
   }
 }

@@ -19,9 +19,35 @@
   height: 150px;
   object-fit: cover;
 }
-.card h2{
-  color:black;
+.card h2 {
+  color: black;
   font-weight: bold;
   font-size: larger;
   font-style: italic;
+}
+.card-btn {
+  background-color: #1e3a6e;
+  color: white;
+  margin: 10px 0 20px;
+  padding: 10px 25px;
+  border: none;
+  border-radius: 30px;
+  font-size: 16px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.card-btn:hover {
+  background-color: #f59e0b;
+}
+
+.price {
+  color: #f59e0b;
+  font-weight: bold;
+  font-size: 20px;
+}
+.info {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
 }
