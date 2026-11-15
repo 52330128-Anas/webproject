@@ -3,11 +3,14 @@
   color: white;
   text-align: center;
   padding: 60px 20px;
+  
 }
 
 .cars-header h1 {
   font-size: 48px;
   margin: 0 0 10px;
+  margin-bottom: 20px;
+  color: #fff;
 }
 
 .cars-header p {
@@ -23,6 +26,7 @@
   max-width: 1200px;
   margin: 50px auto;
   padding: 0 20px;
+  
 }
 
 @media (max-width: 900px) {
@@ -35,4 +39,43 @@
   .cars-grid {
     grid-template-columns: 1fr;
   }
+
+}
+.card-btn {
+  display: inline-block;
+  text-decoration: none;
+  background: #1e2a44;
+  color: #fff;
+  font-weight: 600;
+  font-size: 1rem;
+  padding: 12px 32px;
+  border-radius: 50px;
+  margin: 10px 20px 20px;
+  transition: background 0.25s, transform 0.25s;
+}
+
+.card-btn:hover {
+  background: #0b4a7a;
+  transform: translateY(-2px);
+}
+/* السعر */
+.cars-grid .card p:nth-of-type(1) {
+  color: #e8891c;
+  font-size: 1.4rem;
+  font-weight: bold;
+}
+
+
+.cars-grid .card p:nth-of-type(2),
+.cars-grid .card p:nth-of-type(3) {
+  display: inline-block;
+  margin: 5px 12px;
+  color: gray;
+}
+
+
+.cars-grid .card-btn {
+  display: block;
+  width: fit-content;
+  margin: 15px auto 20px;
 }

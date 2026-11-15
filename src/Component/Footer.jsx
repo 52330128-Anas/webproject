@@ -8,7 +8,7 @@ const Footer = () => {
         <div className="footer-top">
 
         <div>
-        <h3>CityRide Rentals</h3>
+        <h3>Car Rentals</h3>
         <p>Affortdable and reliable car rentals for every journey. Reserve online and drive away today.</p>
 </div>
      
@@ -28,7 +28,7 @@ const Footer = () => {
       </div>
       
       <div className="footer-bottom">
-        © 2026 CityRide Rentals. University frontend project.
+        © 2026 Car Rentals. University frontend project.
 
     </div>
     

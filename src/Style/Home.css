@@ -8,17 +8,48 @@
     display: flex;
     justify-content: space-between;
     padding: 50px;
+    gap: 30px;
 }
 .why-choose{
 text-align: center;
-width: 200px;
-height: 180px;
-border: black 5px;
-background-color: beige;
-border-radius: 10px;
-
+flex: 1;
+min-height: 180px;
+border:black 5px;
+background-color: white;
+border-radius: 18px;
+padding: 40px 25px;
+box-shadow: 0px 6px 20px rgba(0, 0, 0, 0.08);
 }
 
 h2,h1{
     color: black;
+}
+/* عنوان Why Choose Us */
+.cards + div {
+    text-align: center;
+    padding-top: 60px;
+}
+
+.cards + div p {
+    color: gray;
+}
+
+
+.why-choose > div:first-child {
+    width: 70px;
+    height: 70px;
+    margin: 0 auto 20px;
+    border-radius: 50%;
+    background-color: #fdebd3;
+    color: #e8891c;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.why-choose p {
+    color: gray;
+    line-height: 1.6;
 }

@@ -1,6 +1,6 @@
 import React from "react";
 import "../Style/Card.css";
-
+import{Link} from "react-router-dom"
 const Card = ({ image, name, price, transmission, seats }) => {
   return (
     <div className="card">
@@ -9,7 +9,7 @@ const Card = ({ image, name, price, transmission, seats }) => {
       <p>{price}</p>
       <p>{transmission}</p>
       <p>{seats}</p>
-      <button className="card-btn">View Details</button>
+      <Link to="/Reservation" className="card-btn">Reserve Now</Link>
     </div>
   );
 };
