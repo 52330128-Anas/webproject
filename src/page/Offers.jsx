@@ -5,6 +5,7 @@ const Offers = () => {
   const offers = [
     {
       image: "/Cars/image_1.jpeg",
+      name: "Luxury Sedan",
       badge:"15% OFF",
       title: "Weekend Deal;",
       description: "Get 15% off on all rentals from Friday to Suturday. Perfect for a weekend getaway!",
@@ -14,6 +15,7 @@ const Offers = () => {
     },
     {
       image: "/Cars/image_2.avif",
+      name: "Compact SUV",
       badge:"7 For  6",
       title: "Weekly Rental",
       description: "Rent a car for 7 days and  pay for only 6. one day free on all wekly Reservationss.",
@@ -23,6 +25,7 @@ const Offers = () => {
     },
     {
       image: "/Cars/image_3.avif",
+      name:" Sports Coupe",
       badge:"10% OFF",
       title: "Early Reservations",
       description: "Reserve 30 days before your pickup date and save 10% on any car in our fleet.",
@@ -32,18 +35,20 @@ const Offers = () => {
     },
     {
       image: "/Cars/image_4.avif",
+      name:"City Hatchback",
       badge:"20% OFF",
       title: "Student Discount",
       description: "Students get 20% off any rental with a valid university ID. Drive more , pay less!",
       oldPrice: "$35",
       newPrice: "$28",
       per:"/ day",
+      
     }, 
   ];
   return (
     <div>
       <div className="offers-banner">
-        <p>Use code <span classNasme="offers-code">DRIVE10</span> to get 10% off your first Reservations</p>
+        <p>Use code <span className="offers-code">DRIVE10</span> to get 10% off your first Reservations</p>
     </div>
     <div className="offers-grid">
       {offers.map((offer) => (
@@ -53,7 +58,7 @@ const Offers = () => {
             <span className="offer-badge">{offer.badge}</span>
           </div>
           <div className="offer-body">
-            <h3> {"offer.title"}</h3>
+            <h3> {offer.name}</h3>
             <p className="offer-desc"> {offer.description} </p>
             <p>
               <span className="offer-old">{offer.oldPrice}</span>

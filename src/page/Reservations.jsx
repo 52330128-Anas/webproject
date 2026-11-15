@@ -19,7 +19,7 @@ const Reservations = () => {
     <div>
       <div className="head">
         <h1>Reserve Your Ride</h1>
-        <p>Fill in your details and we will confirm your reservation</p>
+        <p>Fill in your details and we will confirm your reservations</p>
       </div>
       <form className="Form">
         <label>Full Name</label>
@@ -54,7 +54,7 @@ const Reservations = () => {
             <h2>${total}</h2>
           </div>
           <button type="submit" className="btn">
-            Confirm Reservation
+            Confirm Reservations
           </button>
         </div>
       </form>
