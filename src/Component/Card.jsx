@@ -21,10 +21,8 @@ const Card = ({ image, name, price, transmission, seats }) => {
         <FontAwesomeIcon icon={faUserGroup} />
         {seats}</p>
       </div>
-      <button className="card-btn">View Details</button>
-      <p>{price}</p>
-      <p>{transmission}</p>
-      <p>{seats}</p>
+     
+      
       <Link to="/Reservation" className="card-btn">Reserve Now</Link>
     </div>
   );
