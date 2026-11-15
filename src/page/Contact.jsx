@@ -1,6 +1,7 @@
 import React from 'react'
 import "../Style/Contact.css";
 const Contact = () => {
+  
   return (
     <div className="contact-page">
      <div className='contact-hero'>
