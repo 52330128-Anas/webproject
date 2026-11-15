@@ -16,6 +16,7 @@
 }
 
 .head h1 {
+  line-height: 1.2;
   color: white;
   font-size: 45px;
   margin: 15px;
@@ -64,25 +65,25 @@
   font-weight: bold;
   cursor: pointer;
 }
-.btn:hover{
+.btn:hover {
   background-color: #2c4f8f;
 }
-.total{
-   background-color: #f1f5f9;
+.total {
+  background-color: #f1f5f9;
   border-radius: 12px;
   padding: 10px;
   margin-bottom: 15px;
   color: #1e3a6e;
 }
-.total h2{
+.total h2 {
   line-height: 1.2;
   margin: 0;
   color: #1e3a6e;
 }
-.date{
+.date {
   display: flex;
-  gap: 20px ;
+  gap: 20px;
 }
-.pickup{
+.pickup {
   width: 50%;
 }
