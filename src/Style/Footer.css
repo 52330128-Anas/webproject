@@ -1,36 +1,36 @@
-.footer{
-
-    background:linear-gradient(to right,#1a2a4a,#1e3a6e);
-    color:white;
-    padding:50px 60px 20px;
+.footer {
+  background: linear-gradient(to right, #1a2a4a, #1e3a6e);
+  color: white;
+  padding: 50px 60px 20px;
 }
-.footer-top{
-    display:flex;
-    justify-content:space-between;
-    gap:40px;
+.footer-top {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap: 40px;
 }
-.footer-top div{
-    flex:1;
+.footer-top div {
+  flex: 1 1 200px;
 }
-.footer-top div:first-child{
-      flex:1.5;
+.footer-top div:first-child {
+  flex: 1.5 1 200px;
 }
-.footer-top h3{
-    font-size:18px;
-    font-weight:600;
-    margin:0 0 15px;
+.footer-top h3 {
+  font-size: 18px;
+  font-weight: 600;
+  margin: 0 0 15px;
 }
-.footer p{
-  color:#cbd5e1;
-font-size:15px;
-line-height:1.8;
-margin:0;
+.footer p {
+  color: #cbd5e1;
+  font-size: 15px;
+  line-height: 1.8;
+  margin: 0;
 }
-.footer-bottom{
-   text-align:center;
-   color:#cbd5e1;
-   font-size:14px;
-   border-top:1px solid rgba(255,255,255,0.15);
-   margin-top:40px;
-   padding-top:20px;
+.footer-bottom {
+  text-align: center;
+  color: #cbd5e1;
+  font-size: 14px;
+  border-top: 1px solid rgba(255, 255, 255, 0.15);
+  margin-top: 40px;
+  padding-top: 20px;
 }
