@@ -23,7 +23,7 @@ const Card = ({ image, name, price, transmission, seats }) => {
       </div>
      
       
-      <Link to="/Reservation" className="card-btn">Reserve Now</Link>
+      <Link to="/Reservations" className="card-btn">Reserve Now</Link>
     </div>
   );
 };
