@@ -1,6 +1,7 @@
 import React from "react";
 import "../Style/NavBar.css";
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import {
+   FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
 import { 
   faCarRear

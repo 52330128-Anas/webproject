@@ -63,12 +63,12 @@ const Home = () => {
           <p>Transparent rates with no hidden fees, guaranteed</p>
         </div>
         <div className="why-choose">
-          <div>$</div>
+          <div>✦</div>
           <h2>Clean Cars</h2>
           <p>Every car is professionally cleaned and sanitised.</p>
         </div>
         <div className="why-choose">
-          <div>$</div>
+          <div>⏲☎️</div>
           <h2>24/7 Support</h2>
           <p>Our team is available any time, day or night.</p>
         </div>

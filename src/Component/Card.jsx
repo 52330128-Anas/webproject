@@ -6,6 +6,7 @@ faEarthAmericas,
 faUserGroup
  } from '@fortawesome/free-solid-svg-icons';
 
+import{Link} from "react-router-dom"
 const Card = ({ image, name, price, transmission, seats }) => {
   return (
     <div className="card">
@@ -21,6 +22,10 @@ const Card = ({ image, name, price, transmission, seats }) => {
         {seats}</p>
       </div>
       <button className="card-btn">View Details</button>
+      <p>{price}</p>
+      <p>{transmission}</p>
+      <p>{seats}</p>
+      <Link to="/Reservation" className="card-btn">Reserve Now</Link>
     </div>
   );
 };
